@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-navegador = webdriver.Edge()
+navegador = webdriver.Chrome()
 
-navegador.get('google.com')
-a = input(' ')
+navegador.get('https://amazon.com')
